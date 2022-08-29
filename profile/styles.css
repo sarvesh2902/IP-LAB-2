@@ -1,0 +1,109 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(90deg, black, #999999);
+}
+.profile {
+    margin-left: 45%;
+}
+.profile img {
+    width: 120px;
+    height: 120px;
+}
+
+body {
+    background-color: black;
+}
+
+.profile header {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.profile div {
+    color: #999999;
+    font-size: small;
+}
+
+p::first-letter {
+    font-weight: 700;
+}
+
+.anchor-buttons {
+    margin-left: 15%;
+}
+
+.anchor-buttons a {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    transition: all 0.25s;
+    margin: 10% 5%;
+    padding: 2% 5%;
+}
+
+.anchor-buttons a:hover {
+    background-color: #b4b4b4;
+    color: black;
+    transform: scale(1.1, 1.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.icons svg {
+    transition: all 0.25s;
+    margin-left: 17%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.icons svg:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.text {
+    margin-left: 1%;
+    color: white;
+}
+
+.inner-text {
+    color: #cccccc;
+}
+
+.inner-text > li::first-letter {
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+}
+
+.video {
+    margin-top: 5%;
+    margin-left: 12.5%;
+}
+
+.audio {
+    color: #cccccc;
+    margin-left: 35%;
+    margin-bottom: 4%;
+}
+
+.text::first-line {
+    font-size: large;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header::first-line {
+    text-transform: uppercase;
+}
+
+li::marker {
+    content: "> ";
+    font-size: 1.2em;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
